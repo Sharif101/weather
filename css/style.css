@@ -1,0 +1,39 @@
+
+body
+{
+    background-color: #E0E0E0;
+}
+#city-name
+{
+    color: #d63200;
+    text-transform: capitalize;
+    font-weight: 600;
+}
+
+#temperature, #mood
+{
+    font-size: 14px;
+
+}
+
+.card 
+{
+    border-radius: 50px;
+background: #e0e0e0;
+box-shadow:  20px 20px 60px #bebebe,
+             -20px -20px 60px #ffffff;
+             border: none;
+}
+
+.input input
+{
+    background: #EEF0F4;
+    border: none;
+    margin: 20px 0;
+    padding: 10px;
+    border-radius: 10px;
+}
+.input input::placeholder
+{
+    font-size: 12px;
+}
